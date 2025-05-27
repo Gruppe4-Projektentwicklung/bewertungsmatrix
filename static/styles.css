@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  margin-bottom: 2rem;
+}
+.metrik-eintrag {
+  margin-bottom: 1rem;
+}
+.metrik-eintrag label {
+  display: block;
+  font-weight: bold;
+}
+.gewichtung-gruppe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.gewichtung-gruppe label {
+  flex: 1;
+  text-align: center;
+}
+.ergebnis-details {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.ergebnis-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.ergebnis-details th,
+.ergebnis-details td {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.info-button {
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: #0077cc;
+  font-weight: bold;
+}
